@@ -14,8 +14,8 @@ spec:
         app: db
     spec:
       containers:
-	  - image: mysql:5.6
-			name: db
+      - image: mysql:5.6
+            name: db
       - env:
         - name: MYSQL_DATABASE
           value: database
@@ -24,7 +24,7 @@ spec:
         
         ports:
         - containerPort: 3306
-			name: db
+            name: db
         resources: {}
         volumeMounts:
         - mountPath: /docker-entrypoint-initdb.d
