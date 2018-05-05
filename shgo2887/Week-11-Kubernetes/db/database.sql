@@ -5,9 +5,9 @@ CREATE TABLE recipes (
   UNIQUE (recipe_name)
 );
 
-INSERT INTO recipes 
-    (recipe_id, recipe_name) 
-VALUES 
+INSERT INTO recipes
+    (recipe_id, recipe_name)
+VALUES
     (1,"Tacos"),
     (2,"Tomato Soup"),
     (3,"Grilled Cheese");
