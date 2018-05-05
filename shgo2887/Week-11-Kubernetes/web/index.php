@@ -1,6 +1,8 @@
+<html>
+<body>
 <?php
 $servername = "172.19.0.1";
-$username = 'root'; 
+$username = 'root';
 $password = 'secret';
 $dbname = 'database';
 $port=3306;
@@ -17,7 +19,5 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 ?>
-
-//<?php
-//phpinfo();
-//?>
+</body>
+</html>
